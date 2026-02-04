@@ -1,5 +1,6 @@
 flask
 flask-cors
+numpy<2.0
 
 langchain==0.3.27
 langchain-core==0.3.80
@@ -12,9 +13,8 @@ huggingface-hub==0.36.0
 transformers==4.43.3
 tokenizers==0.19.1
 sentence-transformers
-
-
 torch==2.0.1
 chromadb
 pypdf
 requests==2.32.5
+
